@@ -2,5 +2,5 @@ FROM java
 #ADD HelloWorld.class /
 #CMD ["java", "HelloWorld"]
 WORKDIR /abc
-RUN pwd
+CMD echo "hello first dockerfile"
 
