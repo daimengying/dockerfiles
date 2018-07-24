@@ -1,6 +1,6 @@
 FROM java 
 #ADD HelloWorld.class /
 #CMD ["java", "HelloWorld"]
-WORKDIR /abcdir
+WORKDIR /abc
 RUN pwd
 
